@@ -1,0 +1,12 @@
+To check the divisbility of a number by 3 without using modulo operator
+
+For i!=0 :
+	remainder=number%10
+	sum=sum+remainder
+	number = number/10
+
+if sum%3 =0 
+	print(“true”)
+else 
+	print(“false”)
+
